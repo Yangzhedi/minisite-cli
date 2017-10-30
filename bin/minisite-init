@@ -27,10 +27,10 @@ program.on('--help', function () {
   console.log('  Examples:')
   console.log()
   console.log(chalk.gray('    # create a new project with an SPA template'))
-  console.log('    $ webapp init webpack my-project')
+  console.log('    $ minisite init webpack my-project')
   console.log()
   console.log(chalk.gray('    # create a new project with an multi page template'))
-  console.log('    $ webapp init webpack-multi my-project')
+  console.log('    $ minisite init webpack-multi my-project')
   console.log()
 })
 

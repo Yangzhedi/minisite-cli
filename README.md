@@ -1,25 +1,25 @@
-# webapp-cli
+# minisite-cli
 
-A simple CLI for create webapp projects.
+A simple CLI for create minisite projects.
 
 ### Installation
 
 Prerequisites: [Node.js](https://nodejs.org/en/) (>=4.x, 6.x preferred) and [Git](https://git-scm.com/).
 
 ``` bash
-$ npm install -g web-app-cli
+$ npm install -g minisite-cli
 ```
 
 ### Usage
 
 ``` bash
-$ webapp init <template-name> <project-name>
+$ minisite init <template-name> <project-name>
 ```
 
 Example:
 
 ``` bash
-$ webapp init webpack-spa my-project
+$ minisite init webpack-spa my-project
 ```
 
 The above command pulls the template from [webapp-templates/webpack](https://github.com/zhouzhihu/webpack), prompts for some information, and generates the project at `./my-project/`.
